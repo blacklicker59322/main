@@ -5,8 +5,8 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
     --key system
     local Window = Rayfield:CreateWindow({
    Name = "Fallen Survival🏹 | Serenity.Cheats",
-   LoadingTitle = "Fallen HUB",
-   LoadingSubtitle = "by Zay",
+   LoadingTitle = "Serenity.Cheats",
+   LoadingSubtitle = "by Deju",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
@@ -14,7 +14,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
    },
    Discord = {
       Enabled = True,
-      Invite = "8ZPjVeAX85", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      Invite = "DKyzwuXMtP", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
    KeySystem = True, -- Set this to true to use our key system
@@ -25,7 +25,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
       FileName = "FallenKey", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = False, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = True, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"https://pastebin.com/raw/DaRFsY2N"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"https://raw.githubusercontent.com/blacklicker59322/main/refs/heads/main/keys"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
@@ -37,8 +37,8 @@ local MainTab = Window:CreateTab("😎Main", nil) -- Title, Image
 --Notify
 
 Rayfield:Notify({
-   Title = "You have executor this script",
-   Content = "this gui is v1 first verion",
+   Title = "Serenity.Cheats",
+   Content = "This is the first version of Serenity.Cheats",
    Duration = 5.5,
    Image = nils,
    Actions = { -- Notification Buttons
